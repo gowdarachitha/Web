@@ -1,0 +1,12 @@
+CREATE TABLE student (
+  usn varchar(20),
+  name varchar(20),
+  marks int(11)
+);
+
+INSERT INTO student (usn, name, marks) VALUES
+('20CSE044', 'radhga', 67),
+('20CSE030', 'april fool', 87),
+('20CSE002', 'prana', 97),
+('20CSE014', 'dilli', 77),
+('20CSE023', 'kgf', 57);
